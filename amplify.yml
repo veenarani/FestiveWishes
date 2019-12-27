@@ -6,9 +6,15 @@ frontend:
         - npm ci
     # IMPORTANT - Please verify your build commands
     build:
-      commands: []
+      commands: [
+        "start": "node index.js",
+    "localhost": "webpack-dev-server | npm run api",
+    "postinstall": "webpack -p",
+    "lint": "eslint src --ext .js --ext .jsx",
+    "api": "json-server --watch mock/db.js --port 3000"
+      ]
   artifacts:
-    baseDirectory: build
+    baseDirectory: './src'
     files:
       - '**/*'
   cache:
