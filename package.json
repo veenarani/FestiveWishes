@@ -61,7 +61,7 @@
     "@material-ui/pickers": "latest",
     "@material-ui/lab": "latest",
     "autoprefixer": "^7.2.6",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "axios-progress-bar": "^1.2.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
