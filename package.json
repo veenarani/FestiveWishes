@@ -46,7 +46,7 @@
     "file-loader": "^1.1.11",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.4.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.0.0",
     "serverless-apigw-binary": "0.4.4",
     "serverless-apigwy-binary": "1.0.0",
